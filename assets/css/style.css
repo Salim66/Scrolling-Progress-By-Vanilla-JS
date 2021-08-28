@@ -5,3 +5,23 @@
     font-family: serif;
 }
 
+body {
+    background-color: #efefef;
+}
+
+.content {
+    background-color: #fff;
+    padding: 50px;
+    line-height: 1.5;
+    font-size: 19px;
+    min-height: 3000px;
+}
+
+.scroll-line {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    background-color: #1CE;
+    transition: 0.5s cubic-bezier(0.215, 0.610, 0.355, 1) all;
+}
